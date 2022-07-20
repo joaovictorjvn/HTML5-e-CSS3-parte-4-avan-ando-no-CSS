@@ -331,3 +331,31 @@ td , th{
     margin: 2em auto;
 
 }
+
+@media screen and (max-width: 480px) {
+
+   .caixa, .principal, .conteudo-beneficios, .conteudo-mapa, .video{
+
+    width: auto;
+
+   }
+
+   h1{
+
+    text-align: center;
+
+   }
+
+   nav{
+
+    position: static;
+
+   }
+
+   .imagembeneficios, .lista-beneficios{
+
+    width: 100%;
+
+   }
+    
+}
